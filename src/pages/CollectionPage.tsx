@@ -5,7 +5,7 @@ import { translate } from "@/lib/translate";
 
 type Product = {
   id: string;
-  slug: string;
+  handle: string;
   title: any;
   description: any;
   created_at: string;
@@ -13,7 +13,7 @@ type Product = {
 };
 
 export default function CollectionPage() {
-  const { slug } = useParams<{ slug: string }>();
+  const { handle } = useParams<{ handle: string }>();
 
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
@@ -21,13 +21,13 @@ export default function CollectionPage() {
 
   useEffect(() => {
     async function loadCollectionPage() {
-      console.log("Loading collection page for slug:", slug);
+      console.log("Loading collection page for handle:", handle);
 
       setLoading(true);
       setErrorMessage(null);
 
-      if (!slug) {
-        setErrorMessage("No collection slug provided.");
+      if (!handle) {
+        setErrorMessage("No collection handle provided.");
         setLoading(false);
         return;
       }
@@ -36,7 +36,7 @@ export default function CollectionPage() {
       const { data: collection, error: collectionError } = await supabase
         .from("ecom_collections")
         .select("id, name")
-        .eq("slug", slug)
+        .eq("handle", handle)
         .maybeSingle();
 
       if (collectionError) {
@@ -100,7 +100,7 @@ export default function CollectionPage() {
     }
 
     loadCollectionPage();
-  }, [slug]);
+  }, [handle]);
 
   // ========================
   // RENDER LOGIC
