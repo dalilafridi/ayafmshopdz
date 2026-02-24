@@ -22,6 +22,8 @@ import TrackOrderPage from "@/pages/TrackOrderPage";
 import { AboutPage, DeliveryPage, ReturnsPage, ContactPage } from "@/pages/StaticPages";
 import AdminPage from "@/pages/AdminPage";
 import NotFound from "./pages/NotFound";
+import AdminLogin from "./admin/AdminLogin";
+import ProductsPage from "./admin/ProductsPage";
 
 const queryClient = new QueryClient();
 
@@ -55,6 +57,9 @@ const App = () => (
                     <Route path="/contact" element={<ContactPage />} />
                     <Route path="/admin" element={<AdminPage />} />
                     <Route path="*" element={<NotFound />} />
+                    <Route path="/admin-login" element={<AdminLogin />} />
+                    <Route path="/admin/products" element={<ProductsPage />} />
+                    <Route path="/admin" element={<ProductsPage />} />
                   </Route>
                 </Routes>
               </BrowserRouter>
