@@ -1,107 +1,147 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { supabase } from "@/lib/supabase";
-import {translate } from "@/lib/translate";
+import { translate } from "@/lib/translate";
 
 type Product = {
   id: string;
   slug: string;
   title: any;
   description: any;
-  status: string;
   created_at: string;
+  status?: string;
 };
 
 export default function CollectionPage() {
-  const { slug } = useParams();
-  const [collectionId, setCollectionId] = useState<string | null>(null);
+  const { slug } = useParams<{ slug: string }>();
+
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // 1️⃣ Load collection by slug
   useEffect(() => {
-    async function loadCollection() {
-      if (!slug) return;
+    async function loadCollectionPage() {
+      console.log("Loading collection page for slug:", slug);
 
-      const { data, error } = await supabase
-        .from("ecom_collections")
-        .select("id")
-        .eq("slug", slug)
-        .maybeSingle(); // 👈 prevents 406
+      setLoading(true);
+      setErrorMessage(null);
 
-      if (error) {
-        console.error("Collection load error:", error);
+      if (!slug) {
+        setErrorMessage("No collection slug provided.");
         setLoading(false);
         return;
       }
 
-      setCollectionId(data?.id ?? null);
-    }
+      // 1️⃣ Fetch collection
+      const { data: collection, error: collectionError } = await supabase
+        .from("ecom_collections")
+        .select("id, name")
+        .eq("slug", slug)
+        .maybeSingle();
 
-    loadCollection();
-  }, [slug]);
+      if (collectionError) {
+        console.error("Collection fetch error:", collectionError);
+        setErrorMessage("Failed to load collection.");
+        setLoading(false);
+        return;
+      }
 
-  // 2️⃣ Load product IDs from junction table
-  useEffect(() => {
-    async function loadProducts() {
-      if (!collectionId) return;
+      if (!collection) {
+        console.warn("Collection not found.");
+        setErrorMessage("Collection not found.");
+        setLoading(false);
+        return;
+      }
 
+      console.log("Collection found:", collection);
+
+      // 2️⃣ Fetch product IDs from junction table
       const { data: junctionData, error: junctionError } = await supabase
         .from("ecom_product_collections")
         .select("product_id, position")
-        .eq("collection_id", collectionId)
+        .eq("collection_id", collection.id)
         .order("position", { ascending: true });
 
       if (junctionError) {
         console.error("Junction fetch error:", junctionError);
+        setErrorMessage("Failed to load collection products.");
         setLoading(false);
         return;
       }
 
-      const productIds = junctionData?.map(j => j.product_id) || [];
+      console.log("Junction rows:", junctionData);
+
+      const productIds = junctionData?.map((row) => row.product_id) ?? [];
 
       if (productIds.length === 0) {
+        console.log("No products in this collection.");
         setProducts([]);
         setLoading(false);
         return;
       }
 
-      // 3️⃣ Load actual products
+      // 3️⃣ Fetch actual products
       const { data: productData, error: productError } = await supabase
         .from("ecom_products")
-        .select("id, slug, title, description, status, created_at")
-        .in("id", productIds)
-        .eq("status", "active") // 👈 storefront safe
-        .order("created_at", { ascending: false });
+        .select("*")
+        .in("id", productIds);
 
       if (productError) {
         console.error("Product fetch error:", productError);
+        setErrorMessage("Failed to load products.");
         setLoading(false);
         return;
       }
 
-      setProducts(productData || []);
+      console.log("Products fetched:", productData);
+
+      setProducts(productData ?? []);
       setLoading(false);
     }
 
-    loadProducts();
-  }, [collectionId]);
+    loadCollectionPage();
+  }, [slug]);
 
-  if (loading) return <div className="p-6">Loading...</div>;
+  // ========================
+  // RENDER LOGIC
+  // ========================
+
+  if (loading) {
+    return (
+      <div className="p-6 text-gray-500">
+        Loading...
+      </div>
+    );
+  }
+
+  if (errorMessage) {
+    return (
+      <div className="p-6 text-red-500">
+        {errorMessage}
+      </div>
+    );
+  }
+
+  if (products.length === 0) {
+    return (
+      <div className="p-6 text-gray-600">
+        No products found in this collection.
+      </div>
+    );
+  }
 
   return (
     <div className="p-6 grid gap-6 md:grid-cols-3">
-      {products.length === 0 && (
-        <div>No products found in this collection.</div>
-      )}
-
-      {products.map(product => (
-        <div key={product.id} className="border p-4 rounded">
-          <h2 className="font-bold text-lg">
+      {products.map((product) => (
+        <div
+          key={product.id}
+          className="border rounded-lg p-4 shadow-sm hover:shadow-md transition"
+        >
+          <h2 className="text-lg font-semibold">
             {translate(product.title, "fr")}
           </h2>
 
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600 mt-2">
             {translate(product.description, "fr")}
           </p>
         </div>
