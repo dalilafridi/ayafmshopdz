@@ -1,0 +1,370 @@
+[
+    {
+        "id": "751b3170-9361-43bb-82ab-e29258f63808",
+        "name": "Samsung Galaxy A54 5G",
+        "handle": "samsung-galaxy-a54",
+        "description": "Smartphone Samsung Galaxy A54 5G avec écran Super AMOLED 6.4 pouces, 128Go de stockage et triple caméra 50MP.",
+        "price": 6500000,
+        "sku": "ELEC-001",
+        "inventory_qty": 50,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771869813365_b9b77c58.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Électronique",
+        "tags": [
+            "featured",
+            "bestseller"
+        ],
+        "metadata": {
+            "brand": "Samsung",
+            "name_ar": "سامسونج جالاكسي A54 5G",
+            "name_en": "Samsung Galaxy A54 5G",
+            "warranty": "12 mois",
+            "description_ar": "هاتف سامسونج جالاكسي A54 5G بشاشة Super AMOLED مقاس 6.4 بوصة، سعة تخزين 128 جيجابايت وكاميرا ثلاثية 50 ميجابكسل.",
+            "description_en": "Samsung Galaxy A54 5G smartphone with 6.4-inch Super AMOLED display, 128GB storage and 50MP triple camera.",
+            "compare_at_price": 7200000
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:04.188Z",
+        "updated_at": "2026-02-23T18:23:04.188Z"
+    },
+    {
+        "id": "6da5d1c1-56f4-4dc1-bec4-b4d2ae423a7e",
+        "name": "iPhone 15 Pro Max 256Go",
+        "handle": "iphone-15-pro-max",
+        "description": "Apple iPhone 15 Pro Max avec puce A17 Pro, écran Super Retina XDR 6.7 pouces et système de caméra pro.",
+        "price": 28000000,
+        "sku": "ELEC-002",
+        "inventory_qty": 20,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771869820478_4639f464.png"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Électronique",
+        "tags": [
+            "featured",
+            "premium"
+        ],
+        "metadata": {
+            "brand": "Apple",
+            "name_ar": "آيفون 15 برو ماكس 256 جيجا",
+            "name_en": "iPhone 15 Pro Max 256GB",
+            "warranty": "12 mois",
+            "description_ar": "آيفون 15 برو ماكس من أبل بمعالج A17 Pro وشاشة Super Retina XDR مقاس 6.7 بوصة ونظام كاميرا احترافي.",
+            "description_en": "Apple iPhone 15 Pro Max with A17 Pro chip, 6.7-inch Super Retina XDR display and pro camera system."
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:04.188Z",
+        "updated_at": "2026-02-23T18:23:04.188Z"
+    },
+    {
+        "id": "42206b2c-cef9-42b8-9489-22dde1ca4135",
+        "name": "Xiaomi Redmi Note 13",
+        "handle": "xiaomi-redmi-note-13",
+        "description": "Xiaomi Redmi Note 13 avec écran AMOLED 6.67 pouces, batterie 5000mAh et caméra 108MP.",
+        "price": 3800000,
+        "sku": "ELEC-003",
+        "inventory_qty": 100,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771869855304_b6e1b3bf.png"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Électronique",
+        "tags": [
+            "featured",
+            "bestseller",
+            "sale"
+        ],
+        "metadata": {
+            "brand": "Xiaomi",
+            "name_ar": "شاومي ريدمي نوت 13",
+            "name_en": "Xiaomi Redmi Note 13",
+            "warranty": "12 mois",
+            "description_ar": "شاومي ريدمي نوت 13 بشاشة AMOLED مقاس 6.67 بوصة وبطارية 5000 مللي أمبير وكاميرا 108 ميجابكسل.",
+            "description_en": "Xiaomi Redmi Note 13 with 6.67-inch AMOLED display, 5000mAh battery and 108MP camera.",
+            "compare_at_price": 4500000
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:04.188Z",
+        "updated_at": "2026-02-23T18:23:04.188Z"
+    },
+    {
+        "id": "4ecc4139-ea51-4d3d-b5f0-d3208bd7e7ab",
+        "name": "Sac à Main Élégant Cuir",
+        "handle": "sac-main-elegant-cuir",
+        "description": "Sac à main en cuir véritable avec finitions dorées, design élégant et spacieux.",
+        "price": 4500000,
+        "sku": "MODE-001",
+        "inventory_qty": 30,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771869871548_c5fa59bb.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Mode",
+        "tags": [
+            "featured",
+            "new"
+        ],
+        "metadata": {
+            "name_ar": "حقيبة يد أنيقة من الجلد",
+            "name_en": "Elegant Leather Handbag",
+            "material": "Cuir véritable",
+            "description_ar": "حقيبة يد من الجلد الطبيعي بتشطيبات ذهبية وتصميم أنيق وواسع.",
+            "description_en": "Genuine leather handbag with gold finishes, elegant and spacious design."
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    },
+    {
+        "id": "e21b91aa-8b38-407f-9ef4-c717dbe932ac",
+        "name": "Sac Bandoulière Moderne",
+        "handle": "sac-bandouliere-moderne",
+        "description": "Sac bandoulière tendance avec compartiments multiples, parfait pour le quotidien.",
+        "price": 2800000,
+        "sku": "MODE-002",
+        "inventory_qty": 45,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771869878341_1dbc84a6.png"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Mode",
+        "tags": [
+            "bestseller"
+        ],
+        "metadata": {
+            "name_ar": "حقيبة كتف عصرية",
+            "name_en": "Modern Crossbody Bag",
+            "material": "Cuir synthétique",
+            "description_ar": "حقيبة كتف عصرية بأقسام متعددة، مثالية للاستخدام اليومي.",
+            "description_en": "Trendy crossbody bag with multiple compartments, perfect for everyday use."
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    },
+    {
+        "id": "5f7f0c1e-a702-44b8-962b-7dcca59dd14a",
+        "name": "Sac à Dos Voyage Premium",
+        "handle": "sac-dos-voyage-premium",
+        "description": "Sac à dos de voyage premium avec compartiment laptop, imperméable et résistant.",
+        "price": 3200000,
+        "sku": "MODE-003",
+        "inventory_qty": 35,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771869996507_0b202e1d.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Mode",
+        "tags": [
+            "new",
+            "sale"
+        ],
+        "metadata": {
+            "name_ar": "حقيبة ظهر سفر فاخرة",
+            "name_en": "Premium Travel Backpack",
+            "material": "Nylon imperméable",
+            "description_ar": "حقيبة ظهر سفر فاخرة مع حجرة لابتوب، مقاومة للماء ومتينة.",
+            "description_en": "Premium travel backpack with laptop compartment, waterproof and durable.",
+            "compare_at_price": 3800000
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    },
+    {
+        "id": "b353a589-166f-4b51-a577-e6262dde122e",
+        "name": "Robot Mixeur Multifonction",
+        "handle": "robot-mixeur-multifonction",
+        "description": "Robot mixeur multifonction 1200W avec 6 vitesses, bol en acier inoxydable 4.5L.",
+        "price": 1500000,
+        "sku": "HOME-001",
+        "inventory_qty": 40,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870010351_b7ac8402.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Maison",
+        "tags": [
+            "featured",
+            "bestseller"
+        ],
+        "metadata": {
+            "power": "1200W",
+            "name_ar": "خلاط روبوت متعدد الوظائف",
+            "name_en": "Multi-Function Stand Mixer",
+            "warranty": "24 mois",
+            "description_ar": "خلاط روبوت متعدد الوظائف بقوة 1200 واط مع 6 سرعات ووعاء من الفولاذ المقاوم للصدأ سعة 4.5 لتر.",
+            "description_en": "1200W multi-function stand mixer with 6 speeds, 4.5L stainless steel bowl."
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    },
+    {
+        "id": "f1ebc244-e33a-4069-8bb5-5f6be4dd1035",
+        "name": "Machine à Café Expresso",
+        "handle": "machine-cafe-expresso",
+        "description": "Machine à café expresso automatique avec broyeur intégré, pression 15 bars.",
+        "price": 4200000,
+        "sku": "HOME-002",
+        "inventory_qty": 25,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870016085_6faf68c3.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Maison",
+        "tags": [
+            "featured",
+            "premium"
+        ],
+        "metadata": {
+            "power": "1450W",
+            "name_ar": "ماكينة قهوة إسبريسو",
+            "name_en": "Espresso Coffee Machine",
+            "warranty": "24 mois",
+            "description_ar": "ماكينة قهوة إسبريسو أوتوماتيكية مع مطحنة مدمجة، ضغط 15 بار.",
+            "description_en": "Automatic espresso coffee machine with built-in grinder, 15 bar pressure."
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    },
+    {
+        "id": "e9471039-f3f5-4bac-8bb3-8bf370adb8ac",
+        "name": "Aspirateur Robot Intelligent",
+        "handle": "aspirateur-robot-intelligent",
+        "description": "Aspirateur robot intelligent avec navigation laser, aspiration 4000Pa et contrôle via application.",
+        "price": 5500000,
+        "sku": "HOME-003",
+        "inventory_qty": 15,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870013951_4dd589cf.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Maison",
+        "tags": [
+            "new",
+            "premium"
+        ],
+        "metadata": {
+            "battery": "5200mAh",
+            "name_ar": "مكنسة روبوت ذكية",
+            "name_en": "Smart Robot Vacuum",
+            "warranty": "12 mois",
+            "description_ar": "مكنسة روبوت ذكية مع ملاحة ليزرية وقوة شفط 4000 باسكال وتحكم عبر التطبيق.",
+            "description_en": "Smart robot vacuum with laser navigation, 4000Pa suction and app control."
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    },
+    {
+        "id": "eb4f4228-d638-43c4-9079-e137d962b411",
+        "name": "Baskets Running Pro Air",
+        "handle": "baskets-running-pro-air",
+        "description": "Chaussures de running légères avec semelle amortissante, mesh respirant et design sportif.",
+        "price": 1200000,
+        "sku": "SPORT-001",
+        "inventory_qty": 80,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870030715_9c181c24.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Sport",
+        "tags": [
+            "featured",
+            "bestseller"
+        ],
+        "metadata": {
+            "name_ar": "حذاء رياضي للجري برو إير",
+            "name_en": "Pro Air Running Shoes",
+            "description_ar": "أحذية جري خفيفة مع نعل ممتص للصدمات وشبكة تهوية وتصميم رياضي.",
+            "description_en": "Lightweight running shoes with cushioning sole, breathable mesh and sporty design.",
+            "compare_at_price": 1500000
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    },
+    {
+        "id": "99be91e3-962b-4e0e-8fbe-c022ac6194ed",
+        "name": "Sneakers Urban Style",
+        "handle": "sneakers-urban-style",
+        "description": "Sneakers tendance pour un look urbain décontracté, confortables et durables.",
+        "price": 950000,
+        "sku": "SPORT-002",
+        "inventory_qty": 60,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870031950_4b2cefe9.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Sport",
+        "tags": [
+            "new",
+            "sale"
+        ],
+        "metadata": {
+            "name_ar": "حذاء رياضي أوربان ستايل",
+            "name_en": "Urban Style Sneakers",
+            "description_ar": "أحذية رياضية عصرية لإطلالة حضرية مريحة ومتينة.",
+            "description_en": "Trendy sneakers for a casual urban look, comfortable and durable.",
+            "compare_at_price": 1200000
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    },
+    {
+        "id": "21a8bcfd-0d3a-4810-a1c2-109fac7443d0",
+        "name": "Chaussures Trail Outdoor",
+        "handle": "chaussures-trail-outdoor",
+        "description": "Chaussures de trail robustes pour randonnée et activités outdoor, imperméables.",
+        "price": 1800000,
+        "sku": "SPORT-003",
+        "inventory_qty": 40,
+        "images": [
+            "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870031768_4cdecfac.jpg"
+        ],
+        "status": "active",
+        "has_variants": false,
+        "vendor": null,
+        "product_type": "Sport",
+        "tags": [
+            "featured"
+        ],
+        "metadata": {
+            "name_ar": "حذاء تريل للأنشطة الخارجية",
+            "name_en": "Outdoor Trail Shoes",
+            "material": "Cuir synthétique imperméable",
+            "description_ar": "أحذية تريل متينة للمشي لمسافات طويلة والأنشطة الخارجية، مقاومة للماء.",
+            "description_en": "Robust trail shoes for hiking and outdoor activities, waterproof."
+        },
+        "package_id": null,
+        "created_at": "2026-02-23T18:23:36.866Z",
+        "updated_at": "2026-02-23T18:23:36.866Z"
+    }
+]

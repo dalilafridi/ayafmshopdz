@@ -1,0 +1,98 @@
+[
+    {
+        "id": "5941cf49-71f8-4348-a29c-0044f228206f",
+        "title": "Mode & Accessoires",
+        "handle": "mode-accessoires",
+        "description": "{\"title_en\": \"Fashion & Accessories\", \"title_ar\": \"أزياء وإكسسوارات\", \"desc_fr\": \"Découvrez notre collection de mode et accessoires\", \"desc_en\": \"Discover our fashion and accessories collection\", \"desc_ar\": \"اكتشف مجموعتنا من الأزياء والإكسسوارات\"}",
+        "image_url": null,
+        "sort_order": "manual",
+        "is_visible": true,
+        "published_at": null,
+        "created_at": "2026-02-23T18:22:47.979Z",
+        "updated_at": "2026-02-23T18:22:47.979Z"
+    },
+    {
+        "id": "c4f364be-8993-4746-af67-5fb038a92246",
+        "title": "Électronique",
+        "handle": "electronique",
+        "description": "{\"title_ar\": \"إلكترونيات\", \"title_en\": \"Electronics\", \"desc_fr\": \"Smartphones, tablettes et accessoires\", \"desc_ar\": \"هواتف ذكية، أجهزة لوحية وإكسسوارات\", \"desc_en\": \"Smartphones, tablets and accessories\"}",
+        "image_url": "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870054004_66c0cfca.jpg",
+        "sort_order": "manual",
+        "is_visible": false,
+        "published_at": null,
+        "created_at": "2026-02-23T18:22:47.979Z",
+        "updated_at": "2026-02-23T18:22:47.979Z"
+    },
+    {
+        "id": "c42fec8f-a9db-4d44-8d26-1586b606d74e",
+        "title": "Maison & Cuisine",
+        "handle": "maison-cuisine",
+        "description": "{\"title_ar\": \"المنزل والمطبخ\", \"title_en\": \"Home & Kitchen\", \"desc_fr\": \"Appareils et accessoires pour la maison\", \"desc_ar\": \"أجهزة ومستلزمات المنزل\", \"desc_en\": \"Home appliances and accessories\"}",
+        "image_url": "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870261394_a455183b.jpg",
+        "sort_order": "manual",
+        "is_visible": false,
+        "published_at": null,
+        "created_at": "2026-02-23T18:22:47.979Z",
+        "updated_at": "2026-02-23T18:22:47.979Z"
+    },
+    {
+        "id": "ee7ebd45-c72c-4a43-946c-d6e78da5763f",
+        "title": "Sport & Loisirs",
+        "handle": "sport-loisirs",
+        "description": "{\"title_ar\": \"رياضة وترفيه\", \"title_en\": \"Sports & Leisure\", \"desc_fr\": \"Chaussures, équipements sportifs\", \"desc_ar\": \"أحذية ومعدات رياضية\", \"desc_en\": \"Shoes and sports equipment\"}",
+        "image_url": "https://d64gsuwffb70l.cloudfront.net/699c95d06b179c72c432491e_1771870282647_7ef5dd70.png",
+        "sort_order": "manual",
+        "is_visible": false,
+        "published_at": null,
+        "created_at": "2026-02-23T18:22:47.979Z",
+        "updated_at": "2026-02-23T18:22:47.979Z"
+    },
+    {
+        "id": "3f7f70c4-d3da-440f-97e9-d0523ee18368",
+        "title": "Beauté & Santé",
+        "handle": "beaute-sante",
+        "description": "{\"title_ar\": \"جمال وصحة\", \"title_en\": \"Beauty & Health\", \"desc_fr\": \"Produits de beauté et bien-être\", \"desc_ar\": \"منتجات التجميل والعناية\", \"desc_en\": \"Beauty and wellness products\"}",
+        "image_url": null,
+        "sort_order": "manual",
+        "is_visible": false,
+        "published_at": null,
+        "created_at": "2026-02-23T18:22:47.979Z",
+        "updated_at": "2026-02-23T18:22:47.979Z"
+    },
+    {
+        "id": "5a43823a-51da-4887-a8f7-17dabcb88da2",
+        "title": "Bébé & Enfant",
+        "handle": "bebe-enfant",
+        "description": "{\"title_ar\": \"أطفال ورضع\", \"title_en\": \"Baby & Kids\", \"desc_fr\": \"Tout pour les petits\", \"desc_ar\": \"كل ما يخص الصغار\", \"desc_en\": \"Everything for little ones\"}",
+        "image_url": null,
+        "sort_order": "manual",
+        "is_visible": false,
+        "published_at": null,
+        "created_at": "2026-02-23T18:22:47.979Z",
+        "updated_at": "2026-02-23T18:22:47.979Z"
+    },
+    {
+        "id": "86a1a5ea-b02b-479c-86d8-7b1b1b52fa51",
+        "title": "Informatique",
+        "handle": "informatique",
+        "description": "{\"title_ar\": \"حاسوب\", \"title_en\": \"Computers\", \"desc_fr\": \"Ordinateurs et périphériques\", \"desc_ar\": \"حواسيب وملحقات\", \"desc_en\": \"Computers and peripherals\"}",
+        "image_url": null,
+        "sort_order": "manual",
+        "is_visible": false,
+        "published_at": null,
+        "created_at": "2026-02-23T18:22:47.979Z",
+        "updated_at": "2026-02-23T18:22:47.979Z"
+    },
+    {
+        "id": "2ad04ee1-9ed0-40eb-8407-84de59fdd073",
+        "title": "Promotions",
+        "handle": "promotions",
+        "description": "{\"title_ar\": \"عروض\", \"title_en\": \"Deals\", \"desc_fr\": \"Les meilleures offres du moment\", \"desc_ar\": \"أفضل العروض الحالية\", \"desc_en\": \"Best current deals\"}",
+        "image_url": null,
+        "sort_order": "price-asc",
+        "is_visible": false,
+        "published_at": null,
+        "created_at": "2026-02-23T18:22:47.979Z",
+        "updated_at": "2026-02-23T18:22:47.979Z"
+    }
+]
