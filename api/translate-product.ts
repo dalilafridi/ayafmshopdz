@@ -16,19 +16,21 @@ export default async function handler(
   res: VercelResponse
 ) {
   try {
-    const { id, title_en, description_en } = req.body;
+    const record = req.body.record;
 
-    if (!id || !title_en) {
-      return res.status(400).json({ error: 'Missing required fields' });
+    if (!record || !record.id || !record.title_en) {
+      return res.status(400).json({ error: 'Invalid webhook payload' });
     }
 
+    const { id, title_en, description_en } = record;
+
     const prompt = `
-Translate the following product to French and Arabic.
+Translate this product to French and Arabic.
 
 Title: ${title_en}
 Description: ${description_en || ''}
 
-Return ONLY valid JSON in this format:
+Return ONLY valid JSON:
 {
   "title_fr": "...",
   "title_ar": "...",
