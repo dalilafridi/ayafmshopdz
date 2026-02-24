@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { supabase } from "@/lib/supabase";
-import { t, translate } from "@/lib/translate";
+import {translate } from "@/lib/translate";
 
 type Product = {
   id: string;
